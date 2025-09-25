@@ -11,4 +11,4 @@ try:
     else:
        print(f"Aprovado, média:{Nota_Final}. Notas lançadas {n1}, {n2} e {n3}")
 except ValueError:
-    print("Valor informado esta errado")
+    print("Valor informado esta errado, Tente novamente ")

@@ -1,7 +1,7 @@
 #Implemente um conversor de bases numéricas (decimal, binário, octal, hexadecimal)
 # com validação
 try:
-    a = int(input("Digite o número para conversão: "))
+    a = int(input("Digite um número para conversão: "))
     decimal = a
     binario = bin(a)
     octal = oct(a)
@@ -13,4 +13,4 @@ try:
     
 
 except ValueError:
-    print("Valor informado está errado")
+    print("Valor informado esta errado, Digite um número para conversão.")

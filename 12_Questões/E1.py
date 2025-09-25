@@ -11,4 +11,4 @@ try:
     else:
         print(f"Número de telefone {a} não é válido")
 except ValueError:
-    print("Informe os valores corretamente.")
+    print("Por favor, informe os valores corretamente.")

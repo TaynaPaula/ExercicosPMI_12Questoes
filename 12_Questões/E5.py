@@ -14,7 +14,7 @@ while True:
             print(f"Elemento '{elemento}' já existe na lista.")
         else:
             lista.append(elemento)
-            print(f"Elemento '{elemento}' adicionado.")
+            print(f"Elemento '{elemento}' adicionado. ")
 
     elif acao == 'remover':
         elemento = input("Digite o produto para remover: ")
@@ -38,3 +38,4 @@ while True:
         print("Opção inválida. Por favor, tente novamente.")
 
     print(f"Lista atual: {lista}")
+
